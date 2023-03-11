@@ -1,0 +1,13 @@
+nav {
+    background-color : blue;
+    width : 100%;
+    height : 100vh;
+    color: white;
+    display: grid;
+    gap: 20px;
+    align-content : start;
+}
+
+a {
+    color : white;
+}

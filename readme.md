@@ -41,7 +41,22 @@ This worked for me.
 
 [create-single-spa for main page](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/1_eki_fe_main_framework_readme.md)
 
+<details>
+  <summary>run create-single-spa for main page</summary>
+```sh
+npm run start
+```
+<details>
+
+
 [create-single-spa for micro frontend react](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/3_eki_fe_b_react_readme.md)
+
+<details>
+  <summary>run create-single-spa for react page (navbar -  micro frontend)</summary>
+```sh
+npm run start:standalone
+```
+<details>
 
 
 
