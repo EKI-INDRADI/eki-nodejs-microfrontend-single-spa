@@ -80,6 +80,4 @@ npm run serve:single-spa:eki-fe-c-angular
 
 :link: https://chat.openai.com/chat
 
-:link: https://single-spa.js.org/docs/create-single-spa
-
 :link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode
