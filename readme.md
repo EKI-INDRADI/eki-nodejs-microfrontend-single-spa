@@ -1,7 +1,5 @@
 ## Tutorial : 
 
-:link: https://www.youtube.com/watch?v=p4o1gxNl5ms&ab_channel=SoftCode
-
 :link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode
 
 1. npm install --global create-single-spa 
@@ -48,4 +46,4 @@ This worked for me.
 
 :link: https://single-spa.js.org/docs/create-single-spa
 
-:link: https://www.youtube.com/watch?v=p4o1gxNl5ms&ab_channel=SoftCode
+:link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode
