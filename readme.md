@@ -25,9 +25,17 @@ solution :
 :link:  https://stackoverflow.com/questions/59561788/im-getting-error-like-this-while-creating-react-app
 
 Open powershell as an administrator.
-Run the following command set-executionpolicy remotesigned
+
+Run the following command 
+
+```sh
+set-executionpolicy remotesigned
+```
+
 Try again.
+
 This worked for me.
+
 
 </details>
 
