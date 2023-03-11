@@ -6,8 +6,9 @@
 
 2. create-single-spa  
 
-------- FOR ERROR "create-single-spa"
 
+<details>
+  <summary>FOR ERROR "create-single-spa"</summary>
 
 ```sh
 create-single-spa : File C:\NVM_MANUAL\nodejs\create-single-spa.ps1 cannot be loaded because running scripts is disabled on 
@@ -28,7 +29,7 @@ Run the following command set-executionpolicy remotesigned
 Try again.
 This worked for me.
 
-------- / FOR ERROR "create-single-spa"
+</details>
 
 [create-single-spa for main page](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/1_eki_fe_main_framework_readme.md)
 
