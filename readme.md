@@ -46,7 +46,7 @@ This worked for me.
 ```sh
 npm run start
 ```
-<details>
+</details>
 
 
 [create-single-spa for micro frontend react](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/3_eki_fe_b_react_readme.md)
@@ -56,7 +56,7 @@ npm run start
 ```sh
 npm run start:standalone
 ```
-<details>
+</details>
 
 
 [create-single-spa for micro frontend angular](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/4_eki_fe_c_angular_readme.md)
@@ -66,7 +66,7 @@ npm run start:standalone
 ```sh
 npm run serve:single-spa:eki-fe-c-angular
 ```
-<details>
+</details>
 
 
 
