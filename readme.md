@@ -30,7 +30,9 @@ This worked for me.
 
 ------- / FOR ERROR "create-single-spa"
 
+[create-single-spa for main page](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/1_eki_fe_main_framework_readme.md)
 
+[create-single-spa for micro frontend react](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/3_eki_fe_b_react_readme.md)
 
 
 
