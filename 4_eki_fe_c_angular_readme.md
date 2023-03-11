@@ -30,7 +30,7 @@ NOTE :
 
 PRESS F12 (developer mode)
 
-http://localhost:8080/ekifeb-eki-fe-c-angular.js <<< makesure running 
+http://localhost:9002/ekifeb-eki-fe-c-angular.js <<< makesure running 
 
 
 

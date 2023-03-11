@@ -43,31 +43,39 @@ This worked for me.
 
 <details>
   <summary>run create-single-spa for main page</summary>
+
 ```sh
 npm run start
 ```
-<details>
+
+</details>
 
 
 [create-single-spa for micro frontend react](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/3_eki_fe_b_react_readme.md)
 
 <details>
   <summary>run create-single-spa for react page (navbar -  micro frontend)</summary>
+
 ```sh
 npm run start:standalone
 ```
-<details>
+
+</details>
 
 
 [create-single-spa for micro frontend angular](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/4_eki_fe_c_angular_readme.md)
 
 <details>
-  <summary>run create-single-spa for angular page (navbar -  micro frontend)</summary>
+  <summary>run create-single-spa for angular page (content -  micro frontend)</summary>
+
 ```sh
 npm run serve:single-spa:eki-fe-c-angular
 ```
-<details>
 
+</details>
+
+
+next video [05:11](https://www.youtube.com/watch?v=PMpRYtNcsZs&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&index=3&ab_channel=SoftCode)  
 
 
 ## EKI INDRADI
@@ -79,7 +87,5 @@ npm run serve:single-spa:eki-fe-c-angular
 :link: https://single-spa.js.org
 
 :link: https://chat.openai.com/chat
-
-:link: https://single-spa.js.org/docs/create-single-spa
 
 :link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode
