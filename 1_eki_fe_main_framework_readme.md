@@ -1,13 +1,14 @@
 
 ## Tutorial : 
 
+```sh
 Directory for new project : eki_fe_main_no_fremework
 Select type to generate : single-spa root config
 which package manager do you want to use : npm
 Will this project use Typescript : Y
 Would you like to use single-spa lauout engine : Y
 Organization name (can use letters. numbers. dash or underscore) : ekifemain
-
+```
 
 secara default akan menggunakan EJS jika no framework
 

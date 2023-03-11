@@ -1,6 +1,7 @@
 
 ## Tutorial : 
 
+```sh
 Directory for new project : eki_fe_b_react
 Select type to generate : single-spa application / parcel
 which framework do you want to use : react
@@ -9,7 +10,7 @@ Will this project use Typescript : Y
 Would you like to use single-spa lauout engine : Y
 Organization name (can use letters. numbers. dash or underscore) : ekifeb
 Project name (can use letters,number,dash or undersocre) : eki-fe-b-react
-
+```
 
 secara default akan menggunakan webpack, parcel dan react
 

@@ -1,6 +1,6 @@
 ## Tutorial : 
 
-:link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode
+:link: https://www.youtube.com/watch?v=p4o1gxNl5ms&list=PLJjz2el2bUZwQ77nMAVpqfdxygAmG1nPi&ab_channel=SoftCode (thanks to SoftCode Youtube Channel)
 
 1. npm install --global create-single-spa 
 
