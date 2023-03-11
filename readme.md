@@ -43,9 +43,11 @@ This worked for me.
 
 <details>
   <summary>run create-single-spa for main page</summary>
+
 ```sh
 npm run start
 ```
+
 </details>
 
 
@@ -53,9 +55,11 @@ npm run start
 
 <details>
   <summary>run create-single-spa for react page (navbar -  micro frontend)</summary>
+
 ```sh
 npm run start:standalone
 ```
+
 </details>
 
 
@@ -63,9 +67,11 @@ npm run start:standalone
 
 <details>
   <summary>run create-single-spa for angular page (navbar -  micro frontend)</summary>
+
 ```sh
 npm run serve:single-spa:eki-fe-c-angular
 ```
+
 </details>
 
 
