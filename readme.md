@@ -59,6 +59,16 @@ npm run start:standalone
 <details>
 
 
+[create-single-spa for micro frontend angular](https://github.com/EKI-INDRADI/eki-nodejs-microfrontend-single-spa/blob/SANDBOX/4_eki_fe_c_angular_readme.md)
+
+<details>
+  <summary>run create-single-spa for angular page (navbar -  micro frontend)</summary>
+```sh
+npm run serve:single-spa:eki-fe-c-angular
+```
+<details>
+
+
 
 ## EKI INDRADI
 
