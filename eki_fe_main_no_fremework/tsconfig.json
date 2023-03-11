@@ -1,0 +1,9 @@
+{
+  "extends": "ts-config-single-spa",
+  "files": ["src/ekifemain-root-config.ts"],
+  "compilerOptions": {
+    "declarationDir": "dist"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/**/*.test*"]
+}
