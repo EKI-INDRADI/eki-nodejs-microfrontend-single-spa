@@ -91,6 +91,11 @@ npm i @angular-builders/custom-webpack
 
 </details>
 
+
+
+http://localhost:9002
+
+
 ## EKI INDRADI
 
 "TIME > KNOWLEDGE > MONEY". #2023_3_DIGIT_MOTIVATION
@@ -133,6 +138,7 @@ Package                      Version
 ```sh
 ng new eki-fe-c-angular
 ```
+
 
 
 
