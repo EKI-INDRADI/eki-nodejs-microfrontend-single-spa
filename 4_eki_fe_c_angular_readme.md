@@ -3,7 +3,7 @@
 
 
 
-# DONT USE ANGULAR GENERATE FROM SINGLE-SPA (ISSUE V15 ++)
+# DONT GENERATE FROM SINGLE-SPA (ANGULAR V15 ++ NOT SUPPORT SINGLE-SPA)
 
  example : https://stackoverflow.com/questions/43344600/how-to-install-a-specific-version-of-angular-with-angular-cli
 
