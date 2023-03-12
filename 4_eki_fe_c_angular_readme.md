@@ -106,12 +106,12 @@ npm i @angular-builders/custom-webpack
 
 
 
-########## DONT USE USE ##############
-
 
 
 <details>
-  <summary>install angular 14 version (DEPRECATED)</summary>
+  <summary>########## DONT USE THIS ##############</summary>
+
+install angular 14 version (DEPRECATED)
 
 ```sh
 npm install @angular/cli@14.2.10
@@ -134,7 +134,7 @@ Package                      Version
 ng new eki-fe-c-angular
 ```
 
-</details>
+
 
 
 
@@ -284,6 +284,4 @@ PRESS F12 (developer mode)
 
 http://localhost:9002/ekifeb-eki-fe-c-angular.js <<< makesure running 
 
-
-
-########### DONT USE USE ##############
+</details>
