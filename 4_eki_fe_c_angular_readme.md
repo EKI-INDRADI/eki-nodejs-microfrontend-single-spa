@@ -36,31 +36,6 @@ cd ./eki_fe_c_angular
 npm init
 ```
 
-<details>
-  <summary>install angular 14 version (DEPRECATED)</summary>
-
-```sh
-npm install @angular/cli@14.2.10
-ng version
-```
-
-makesure result version v14
-
-```sh
-Package                      Version
-------------------------------------------------------
-@angular-devkit/architect    0.1402.10
-@angular-devkit/core         14.2.10
-@angular-devkit/schematics   14.2.10
-@angular/cli                 14.2.10
-@schematics/angular          14.2.10
-```
-
-```sh
-ng new eki-fe-c-angular
-```
-
-</details>
 
 
 
@@ -132,6 +107,35 @@ npm i @angular-builders/custom-webpack
 
 
 ########## DONT USE USE ##############
+
+
+
+<details>
+  <summary>install angular 14 version (DEPRECATED)</summary>
+
+```sh
+npm install @angular/cli@14.2.10
+ng version
+```
+
+makesure result version v14
+
+```sh
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.1402.10
+@angular-devkit/core         14.2.10
+@angular-devkit/schematics   14.2.10
+@angular/cli                 14.2.10
+@schematics/angular          14.2.10
+```
+
+```sh
+ng new eki-fe-c-angular
+```
+
+</details>
+
 
 
 ```sh
