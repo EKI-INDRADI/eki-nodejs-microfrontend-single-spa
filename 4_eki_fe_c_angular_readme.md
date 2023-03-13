@@ -292,7 +292,7 @@ to
     // "zone.js": "~0.10.3" // NOT SUPPORT ANGULAR V14
     // "zone.js": "~0.12.0" // NOT WORK
     "zone.js": "~0.11.8" // STILL ISSUE
-```json
+```
 
 /eki_fe_c_angular/eki-fe-c-angular
 delete node_modules
