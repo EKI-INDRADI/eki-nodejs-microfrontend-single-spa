@@ -93,7 +93,71 @@ npm i @angular-builders/custom-webpack
 
 
 
-http://localhost:9002
+<details>
+  <summary>NOTE : EKI-20230313-006-ANGULAR-PAGE </summary>
+
+
+edit /src/app/app-routing.module.ts
+```ts
+
+const routes: Routes = [
+  //----------------20230313
+  { path: '**', component: EmptyRouteComponent }
+  //----------------20230313
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule],
+  providers: [{ provide: APP_BASE_HREF, useValue: '/' }]
+})
+
+```
+
+
+makesure \src\index.html is same
+``` html
+
+  <base href="/">
+
+```
+
+after run,  press F12 (network) & open http://localhost:9002
+
+routes network :
+http://localhost:9002/main.js
+
+
+
+
+/eki_fe_main_no_fremework/index.ejs
+```html
+
+    <script type="systemjs-importmap">
+    {
+      "imports": {
+        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+        "@ekifemain/root-config": "//localhost:9000/ekifemain-root-config.js",
+        "@ekifeb/eki-fe-b-react" : "http://localhost:8080/ekifeb-eki-fe-b-react.js",
+        "@ekifec/eki-fe-c-angular" : "http://localhost:9002/main.js"
+      }
+    }
+  </script>
+
+```
+
+/eki_fe_main_no_fremework/src/microfrontend-layout.html
+```html
+
+      <route default>
+        <application name="@ekifec/eki-fe-c-angular"></application>
+      </route>
+
+```
+
+
+
+
 
 
 ## EKI INDRADI
@@ -108,13 +172,139 @@ http://localhost:9002
 
 
 
+<details>
+  <summary>########## DONT USE THIS #2 ##############</summary>
+
+
+
+  
+ERROR #3 : 
+```sh
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Option "deployUrl" is deprecated: Use "baseHref" option, "APP_BASE_HREF" DI token or a combination of both instead. For more information, see https://angular.io/guide/deployment#the-deploy-url.
+    Warning: --deploy-url and/or --base-href contain unsupported values for ng serve. Default serve path of '/' used. Use --serve-path to override.
+
+</details>
+```
+
+https://stackoverflow.com/questions/71695674/what-is-best-way-to-go-about-replacing-deployurl-in-angular-json-for-v13/71913980#71913980
+
+
+Replaced "deployUrl" with "baseHref" in angular.json
+
+
+angular.json
+```json
+            "deployUrl": "http://localhost:9002/"
+```
+
+replace to
+
+angular.json
+```json
+            "baseHref": "http://localhost:9002/"
+```
+
+
+makesure app-routing.module.ts
+```ts
+{ provide: APP_BASE_HREF, useValue: '/' }
+```
+
+makesure index.html 
+```html
+../assets/{some_asset'}'
+```
+
+makesure index.html 
+```html
+<base href="/">
+```
 
 
 
 
+
+
+
+
+
+ERROR #3 : 
+```sh
+Warning: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Option "deployUrl" is deprecated: Use "baseHref" option, "APP_BASE_HREF" DI token or a combination of both instead. For more information, see https://angular.io/guide/deployment#the-deploy-url.
+    Warning: --deploy-url and/or --base-href contain unsupported values for ng serve. Default serve path of '/' used. Use --serve-path to override.
+
+</details>
+```
+
+
+NOT WORK https://stackoverflow.com/questions/71695674/what-is-best-way-to-go-about-replacing-deployurl-in-angular-json-for-v13
+
+NOT WORK
+https://github.com/angular/angular-cli/issues/22113
+
+
+
+
+
+
+F12 console ERROR after run "cd eki_fe_main_no_fremework && npm run start"
+ERROR #4 : 
+```sh
+Uncaught Error: application '@ekifec/eki-fe-c-angular' died in status SKIP_BECAUSE_BROKEN: NG0908: In this configuration Angular requires Zone.js
+    at new NgZone (core.mjs:26076:19)
+    at getNgZone (core.mjs:27075:75)
+    at PlatformRef.bootstrapModuleFactory (core.mjs:26942:24)
+    at core.mjs:26998:41
+```
+
+ERROR #4 : 
+```sh
+
+// main.ts
+//--------------STILL ERROR
+// https://stackoverflow.com/questions/58541040/application-died-in-status-unmounting-cannot-read-property-injector-of-undefi
+// https://stackoverflow.com/questions/39592949/angular2-final-release-error-angular-requires-zone-js-prolyfill
+// Uncaught Error: application '@ekifec/eki-fe-c-angular' died in status SKIP_BECAUSE_BROKEN: NG0908: In this configuration Angular requires Zone.js
+//     at new NgZone (core.mjs:26076:19)
+//     at getNgZone (core.mjs:27075:75)
+//     at PlatformRef.bootstrapModuleFactory (core.mjs:26942:24)
+//     at core.mjs:26998:41
+
+// import 'zone.js' 
+// import 'zone.js/dist/zone';
+//--------------/STILL ERROR
+
+```
+
+
+/eki_fe_c_angular/eki-fe-c-angular/package.json
+```json
+    "zone.js": "~0.11.4"
+```json
+
+
+to
+
+/eki_fe_c_angular/eki-fe-c-angular/package.json
+```json
+    // "zone.js": "~0.10.3" // NOT SUPPORT ANGULAR V14
+    // "zone.js": "~0.12.0" // NOT WORK
+    "zone.js": "~0.11.8" // STILL ISSUE
+```json
+
+/eki_fe_c_angular/eki-fe-c-angular
+delete node_modules
+delete package-lock.json
+npm i
+
+
+
+</details>
 
 <details>
-  <summary>########## DONT USE THIS ##############</summary>
+  <summary>########## DONT USE THIS #2 ##############</summary>
 
 install angular 14 version (DEPRECATED)
 
