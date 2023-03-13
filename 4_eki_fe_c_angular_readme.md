@@ -306,7 +306,7 @@ npm i
 </details>
 
 <details>
-  <summary>########## DONT USE THIS #2 ##############</summary>
+  <summary>########## DONT USE THIS #1 ##############</summary>
 
 install angular 14 version (DEPRECATED)
 
