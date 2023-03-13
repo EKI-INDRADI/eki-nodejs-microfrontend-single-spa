@@ -282,7 +282,7 @@ ERROR #4 :
 /eki_fe_c_angular/eki-fe-c-angular/package.json
 ```json
     "zone.js": "~0.11.4"
-```json
+```
 
 
 to
