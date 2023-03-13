@@ -155,8 +155,10 @@ http://localhost:9002/main.js
 
 ```
 
+</details>
 
 
+# TIRED  . . . .ANGULAR V14 NOT SUIPPORT SINGLE-SPA MANY DEPRECATED DEPEDENCY, REINSTALL GO TO ANGULAR V13
 
 
 
